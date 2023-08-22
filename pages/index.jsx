@@ -1,3 +1,5 @@
-export default function Home() {
-    return <h1>Hello, Next.js</h1>;
+import TodoList from "../components/ToDo"
+
+export default function Main() {
+    return <><TodoList /></>
 }
